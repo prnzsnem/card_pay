@@ -1,0 +1,16 @@
+* {
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+@media print {
+  .noPrint {
+    display: none;
+  }
+  .print-col-width{ width: 100% !important; }
+}
